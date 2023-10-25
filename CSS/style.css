@@ -1,0 +1,146 @@
+html {
+    background-color: rgb(225, 238, 240);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    border-bottom: 3px solid darkslategray;
+}
+
+.nav-logo img {
+    max-height: 40px;
+}
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    padding: 2px 1em;
+    border: 0.5px solid gray;
+    min-width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: black;  
+}
+
+#home {
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#message {
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.nav-item:hover {
+    background: rgb(125, 175, 209);
+}
+
+.greetings {
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.banner {
+    border-bottom: 3px  solid black;
+    height: 500px;
+    /*background-color: cornflowerblue;
+    background-image: url(/assets/747185.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.img-slideshow {
+    padding: 0.5em;
+    width: 35%;
+    height: 35%;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.profile {
+    padding: 3em;
+    border-bottom: 1px  solid black;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.set {
+    border: 0;
+}
+
+.im-cir {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.OP-items {
+    display: flex;
+    padding: 2em 5em;
+    justify-content: space-around;
+}
+
+.message-us{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-left {
+    display: flex;
+    padding: 3em;
+}
+
+.form-right {
+    display: flex;
+    padding: 3em;
+    justify-content: left;
+}
+
+.footer-text {
+    font-size: small;
+    text-align: end;
+}
+.nama {
+    display: flex;
+    size: 200px;
+}
+
+.birth-date {
+    width: auto;
+}
+.submit {
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+
+@media only screen and  (max-width: 600px){
+    .header {
+        flex-direction: column;
+    }
+    .nav {
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-logo {
+        margin-bottom: 14px;
+    }
+    .message-us {
+        flex-direction: column;
+    }
+    .OP-items {
+        flex-direction: column;
+    }
+}
+
+.field {
+    width: 300px;
+    background-color: white;
+}
