@@ -47,10 +47,6 @@ html {
 .banner {
     border-bottom: 3px  solid black;
     height: 500px;
-    /*background-color: cornflowerblue;
-    background-image: url(/assets/747185.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 .img-slideshow {
@@ -106,14 +102,6 @@ html {
 .footer-text {
     font-size: small;
     text-align: end;
-}
-.nama {
-    display: flex;
-    size: 200px;
-}
-
-.birth-date {
-    width: auto;
 }
 .submit {
     display: flex;
